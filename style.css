@@ -1,0 +1,182 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#intro {
+    color: antiquewhite;
+    background-color: rgb(8, 77, 129);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+
+.intro_img img{
+    height: 200px;
+    width: 200px;
+   margin: 20px 20px 10px 0px;
+}    
+
+.text {
+
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 20px;
+    padding-left: 35px;
+
+
+}
+.text h1{
+    font-size: 50px;
+
+}
+
+.text h3 {
+    /*argin-bottom: 15px;*/
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+
+.text p,
+ul span {
+    margin-bottom: 15px;
+}
+
+
+.text h4 {
+    margin-bottom: 15px;
+
+}
+
+.underline {
+    border-bottom: 1px solid rgb(12, 70, 151);
+    width: 94%;
+    margin-left: 1px;
+    
+}
+
+h4 {
+    width: 250px;
+    margin-left: 10px;
+    
+    background-color: rgb(30, 79, 176);
+    color: antiquewhite;
+    margin-bottom: 0px;
+}
+
+
+#work_experience span {
+    width: 250px;
+    padding:10px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.job {
+    display: flex;
+    
+   padding-top: 10PX;
+    padding-left: 45px;
+    margin-top: 15px;
+
+}
+
+.job_title h5 {
+    margin-right: 10px;
+    margin-left: 8px;
+    width: 85px;
+    padding-left: 20px;
+
+}
+
+.job_title p {
+    padding-left: 10px;
+}
+
+.company_name p {
+    margin-right: 10%;
+    text-align: justify;
+    margin-bottom: 8px;
+}
+
+
+#education span{
+    width: 250px;
+    padding:10px;
+    background-color: blue;
+    display: flex;
+    
+    justify-content: center;
+}
+
+
+/*.education h4 {
+    /* width: 250px;
+    margin-left: 10px;
+    padding-left: 15px;
+    padding-right: 20px;
+    margin-top: 20px;
+
+    width: 250px;
+    margin-left: 10px;
+    padding-left: 45px;
+    margin-top: 15px;
+
+}*/
+
+.school {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 45px;
+    line-height: 1.1;
+    margin-top: 15px;
+}
+
+.description p {
+    margin-right: 10%;
+    text-align: justify;
+    margin-bottom: 10px;
+
+}
+
+.college h5 {
+    margin-right: 20px;
+    width: 120px;
+    padding-left: 14px;
+
+}
+
+.college p {
+    margin-left: 45px;
+    padding: 0px;
+}
+
+
+#communication span{
+    width: 250px;
+        padding:10px;
+        background-color: blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.comm p {
+    margin-bottom: 15px;
+
+    margin-right: 33px;
+    padding-left: 19px;
+}
+
+.comm {
+    margin-left: 15px;
+    padding: 20px;
+    margin-bottom: 10px;
+
+}
