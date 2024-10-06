@@ -1,180 +1,188 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-family: "Poppins", sans-serif;
 }
 
+
+/*Introducation*/
 #intro {
-    color: antiquewhite;
+    color: white;
     background-color: rgb(8, 77, 129);
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 
-.intro_img img{
-    height: 200px;
-    width: 200px;
-   margin: 20px 20px 10px 0px;
-}    
+.myImg img {
+    height: 228px;
+    width: 220px;
+    margin: 45px 90px 0px 0px;
+    border: 2px solid white;
+    
+    
+}
 
-.text {
+.myIntro {
 
     margin-top: 5px;
-    margin-left: 20px;
+    margin-left: 13px;
     padding: 20px;
     padding-left: 35px;
-
-
 }
-.text h1{
+
+
+.myIntro h1 {
     font-size: 50px;
-
+    margin-bottom: 3px;
 }
 
-.text h3 {
-    /*argin-bottom: 15px;*/
+.myIntro h3 {
+    margin-bottom: 15px;
     line-height: 20px;
     font-weight: 500;
-    margin-bottom: 13px;
+
 }
 
-.text p,
-ul span {
+.myIntro p {
+    
+    padding-bottom: 27px;
+    font-weight: 300;
+
+}
+
+.myIntro div span {
+    padding-right: 13px;
+    padding-left: 7px;
+    margin-top: 25px;
+}
+
+.myIntro h4 {
     margin-bottom: 15px;
 }
 
 
-.text h4 {
-    margin-bottom: 15px;
 
-}
+
+/*Underline*/
 
 .underline {
     border-bottom: 1px solid rgb(12, 70, 151);
     width: 94%;
     margin-left: 1px;
-    
-}
-
-h4 {
-    width: 250px;
-    margin-left: 10px;
-    
-    background-color: rgb(30, 79, 176);
-    color: antiquewhite;
-    margin-bottom: 0px;
 }
 
 
-#work_experience span {
-    width: 250px;
-    padding:10px;
+
+
+/*work experience*/
+
+#work-experience span {
+    width: 200px;
+    padding: 10px;
     background-color: blue;
+    color: white;
+
     display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-left: 50px;
 }
 
 .job {
     display: flex;
-    
-   padding-top: 10PX;
+
+    padding-top: 10PX;
     padding-left: 45px;
     margin-top: 15px;
-
+    gap: 10px;
 }
 
-.job_title h5 {
+.job-title h5 {
     margin-right: 10px;
     margin-left: 8px;
     width: 85px;
     padding-left: 20px;
-
+    text-align: right;
 }
 
-.job_title p {
-    padding-left: 10px;
+.job-title p {
+    padding-left: 7px;
+    margin-top: 4px;
 }
 
-.company_name p {
+.company-name p {
     margin-right: 10%;
     text-align: justify;
     margin-bottom: 8px;
+    margin-top: 4px;
 }
 
 
-#education span{
-    width: 250px;
-    padding:10px;
+
+/*education*/
+
+#education span {
+    width: 200px;
+    padding: 10px;
     background-color: blue;
+    color: white;
+
     display: flex;
-    
-    justify-content: center;
-}
-
-
-/*.education h4 {
-    /* width: 250px;
-    margin-left: 10px;
-    padding-left: 15px;
-    padding-right: 20px;
+    padding-left: 50px;
     margin-top: 20px;
-
-    width: 250px;
-    margin-left: 10px;
-    padding-left: 45px;
-    margin-top: 15px;
-
-}*/
+}
 
 .school {
     display: flex;
     padding-top: 10px;
-    padding-left: 45px;
+    padding-left: 30px;
     line-height: 1.1;
     margin-top: 15px;
+    gap: 10px;
 }
 
 .description p {
     margin-right: 10%;
     text-align: justify;
     margin-bottom: 10px;
-
+    margin-top: 4px;
 }
 
-.college h5 {
+.college-name h5 {
     margin-right: 20px;
     width: 120px;
-    padding-left: 14px;
-
+    padding-left: 12px;
+    text-align: right;
 }
 
-.college p {
-    margin-left: 45px;
+.college-name p {
+    margin-left: 48px;
     padding: 0px;
+    margin-top: 4px;
 }
 
 
-#communication span{
-    width: 250px;
-        padding:10px;
-        background-color: blue;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+/*Communication*/
+
+#communication span {
+    width: 200px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    padding-left: 50px;
 }
 
-.comm p {
+.communication-description p {
     margin-bottom: 15px;
 
     margin-right: 33px;
     padding-left: 19px;
 }
 
-.comm {
+.communication-description {
     margin-left: 15px;
     padding: 20px;
     margin-bottom: 10px;
